@@ -23,8 +23,8 @@
     "editorType": [
       "figma"
     ],
-    "id": "react-editor",
-    "name": "React Editor",
+    "id": "Hello CDS",
+    "name": "Hello CDS",
     "main": "src/main.ts",
     "ui": "src/ui.tsx"
   }

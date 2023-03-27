@@ -18,7 +18,7 @@ import { InsertCodeHandler } from './types'
 
 function Plugin() {
   const [code, setCode] = useState(`function add(a, b) {\n  return a + b;\n}`);
-  const [value, setValue] = useState(`forWhatEverYouWant`)
+  const [value, setValue] = useState(`How are you?`)
   const handleInsertCodeButtonClick = useCallback(
     function () {
       emit<InsertCodeHandler>('INSERT_CODE', code)
@@ -38,7 +38,7 @@ function Plugin() {
       </div>
       <VerticalSpace space="large" />
       <Button fullWidth onClick={handleInsertCodeButtonClick}>
-        Insert Code
+        Access
       </Button>
       <VerticalSpace space="small" />
     </Container>
